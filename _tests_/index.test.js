@@ -3,7 +3,6 @@ import { test, expect } from '@jest/globals';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { readFileSync } from 'node:fs';
-/// inside imports
 import getDifference from '../src/index.js';
 
 const importFileName = fileURLToPath(import.meta.url); // https://nodejs.org/api/esm.html#importmetaurl
