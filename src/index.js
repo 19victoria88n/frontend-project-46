@@ -1,4 +1,4 @@
-﻿import fs from 'fs';
+import fs from 'fs';
 import _ from 'lodash';
 import path from 'path';
 import { cwd } from 'node:process';
