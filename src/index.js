@@ -1,11 +1,11 @@
-﻿import { readFileSync } from 'fs';
+﻿import fs from 'fs';
 import _ from 'lodash';
 import path from 'path';
 import { cwd } from 'node:process';
 
 // eslint-disable-next-line no-shadow
 const getDataParsed = (path) => {
-  const data = readFileSync(path, { encoding: 'utf8', flag: 'r' });
+  const data = fs.readFileSync(path, { encoding: 'utf8', flag: 'r' });
   return JSON.parse(data);
 };
 
