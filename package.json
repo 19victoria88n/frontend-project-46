@@ -2,14 +2,18 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "type": "module",
+  "main": "src/index.js",
   "bin": {
-  "gendiff": "bin/gendiff.js"
-},
+    "gendiff": "bin/gendiff.js"
+  },
   "description": "[![Actions Status](https://github.com/19victoria88n/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/19victoria88n/frontend-project-46/actions)",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Vika Bondarenko",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "commander": "^10.0.1"
+  }
 }
