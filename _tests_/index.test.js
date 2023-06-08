@@ -14,6 +14,9 @@ test.each([
   {
     file1: 'file1.json', file2: 'file2.json', format: 'stylish', expectResult: 'result-stylish.txt',
   },
+  {
+    file1: 'file1.yaml', file2: 'file2.yaml', format: 'stylish', expectResult: 'result-stylish1.txt',
+  },
 ])('Compare files $file1 and $file2 format $format', ({
   file1, file2, format, expectResult,
 }) => {

@@ -8,4 +8,8 @@
 
 [![project-check](https://github.com/19victoria88n/frontend-project-46/actions/workflows/project.check.yml/badge.svg)](https://github.com/19victoria88n/frontend-project-46/actions/workflows/project.check.yml)
 
+Comparison of "flat" json-files:
 [![asciicast](https://asciinema.org/a/NUx4lKLtSiwHjLYsH0azs8J9k.svg)](https://asciinema.org/a/NUx4lKLtSiwHjLYsH0azs8J9k)
+
+Comparison of "flat" yaml-files:
+[![asciicast](https://asciinema.org/a/WzzG1DvGHmS9pOcIopQnKFBZW.svg)](https://asciinema.org/a/WzzG1DvGHmS9pOcIopQnKFBZW)

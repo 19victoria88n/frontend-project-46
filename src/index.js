@@ -1,20 +1,12 @@
-import fs from 'fs';
+import { readFileSync } from 'fs';
 import _ from 'lodash';
-import path from 'path';
-import { cwd } from 'node:process';
+import getFormat from './parcers.js';
 
-// eslint-disable-next-line no-shadow
-const getDataParsed = (path) => {
-  const data = fs.readFileSync(path, { encoding: 'utf8', flag: 'r' });
-  return JSON.parse(data);
-};
-
-const genDiff = (filepath1, filepath2) => {
-  const resolvedFilepath1 = path.resolve(cwd(), filepath1);
-  const resolvedFilepath2 = path.resolve(cwd(), filepath2);
-
-  const data1 = getDataParsed(resolvedFilepath1);
-  const data2 = getDataParsed(resolvedFilepath2);
+const genDiff = (file1, file2) => {
+  const contentData1 = readFileSync(file1, 'utf-8');
+  const contentData2 = readFileSync(file2, 'utf-8');
+  const data1 = getFormat(file1, contentData1);
+  const data2 = getFormat(file2, contentData2);
 
   const keys1 = Object.keys(data1);
   const keys2 = Object.keys(data2);
