@@ -1,13 +1,7 @@
-plugins:
-  # https://github.com/jest-community/eslint-plugin-jest
-  - jest
-  env:
+env:
   es2021: true
   node: true
-extends:
-  - 'airbnb-base'
-  - 'plugin:jest/recommended'
-  - 'eslint:recommended'
+extends: "airbnb-base"
 overrides: []
 parserOptions:
   ecmaVersion: latest
