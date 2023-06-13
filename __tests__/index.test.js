@@ -17,6 +17,8 @@ test.each([
   ['filepath1.yaml', 'filepath2.yaml', 'stylish', 'result3-stylish.txt'],
   ['filepath1.json', 'filepath2.json', 'plain', 'result4-plain.txt'],
   ['filepath1.yaml', 'filepath2.yaml', 'plain', 'result4-plain.txt'],
+  ['filepath1.json', 'filepath2.json', 'json', 'result5-json.txt'],
+  ['filepath1.yaml', 'filepath2.yaml', 'json', 'result5-json.txt'],
 ])('Comparing "%s" and "%s" with "%s" formatter equals to "%s"', (filename1, filename2, format, expected) => {
   const result = readFile(expected);
   const file1 = getFixturePath(filename1);
