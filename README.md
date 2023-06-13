@@ -19,3 +19,6 @@ Recursive comparison:
 
 Comparison of plain-format:
 [![asciicast](https://asciinema.org/a/aMC6gelYRVmKmAaiHSipkXcBx.svg)](https://asciinema.org/a/aMC6gelYRVmKmAaiHSipkXcBx)
+
+Comparison of json-format:
+[![asciicast](https://asciinema.org/a/aXKaP31WoK7yK6IDus1LZbwW3.svg)](https://asciinema.org/a/aXKaP31WoK7yK6IDus1LZbwW3)
