@@ -13,3 +13,7 @@ Comparison of "flat" json-files:
 
 Comparison of "flat" yaml-files:
 [![asciicast](https://asciinema.org/a/WzzG1DvGHmS9pOcIopQnKFBZW.svg)](https://asciinema.org/a/WzzG1DvGHmS9pOcIopQnKFBZW)
+
+Recursive comparison
+Recursive comparison
+[![asciicast](https://https://asciinema.org/a/DqlSIDgl73l3rv6cIYZX9rMJb.svg)](https://asciinema.org/a/DqlSIDgl73l3rv6cIYZX9rMJb)
