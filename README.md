@@ -16,3 +16,6 @@ Comparison of "flat" yaml-files:
 
 Recursive comparison:
 [![asciicast](https://asciinema.org/a/DqlSIDgl73l3rv6cIYZX9rMJb.svg)](https://asciinema.org/a/DqlSIDgl73l3rv6cIYZX9rMJb)
+
+Comparison of plain-format:
+[![asciicast](https://asciinema.org/a/aMC6gelYRVmKmAaiHSipkXcBx.svg)](https://asciinema.org/a/aMC6gelYRVmKmAaiHSipkXcBx)
