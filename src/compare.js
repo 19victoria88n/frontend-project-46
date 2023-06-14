@@ -3,8 +3,7 @@ import _ from 'lodash';
 const compareObject = (data1, data2) => {
   const keys1 = Object.keys(data1);
   const keys2 = Object.keys(data2);
-  const keys = _.union(keys1, keys2);
-  const sortedKeys = _.sortBy(keys);
+  const sortedKeys = _.sortBy(_.union(keys1, keys2));
 
   const treeOfDiff = sortedKeys.map((key) => {
     if (_.isPlainObject(data1[key]) && _.isPlainObject(data2[key])) {
