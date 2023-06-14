@@ -1,5 +1,6 @@
 import makeStylish from './stylish.js';
 import makePlain from './plain.js';
+import makeJSON from './json.js';
 
 const makeFormatting = (treeDiff, format) => {
   switch (format) {
@@ -7,7 +8,7 @@ const makeFormatting = (treeDiff, format) => {
 
     case 'plain': return makePlain(treeDiff);
 
-    case 'json': return JSON.stringify(treeDiff);
+    case 'json': return makeJSON(treeDiff);
 
     default:
       throw new Error(`False format ${format}`);
