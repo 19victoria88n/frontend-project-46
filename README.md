@@ -14,8 +14,10 @@ This is a program that compares two configuration files and shows a difference.
 
 ## Utility features:
 
+```sh
 Support for different input formats: yaml, json
 Report generation in the form of plain text, stylish and json
+```
 
 ## Installation:
 
