@@ -8,22 +8,32 @@
 
 [![project-check](https://github.com/19victoria88n/frontend-project-46/actions/workflows/project.check.yml/badge.svg)](https://github.com/19victoria88n/frontend-project-46/actions/workflows/project.check.yml)
 
-#DIFFERENCE CALCULATOR
+# DIFFERENCE CALCULATOR
+
 This is a program that compares two configuration files and shows a difference.
 
-##Utility features:
+## Utility features:
+
 Support for different input formats: yaml, json
 Report generation in the form of plain text, stylish and json
 
-##Installation:
+## Installation:
+
+```sh
 Clone repository.
 Install dependencies:
 make install
+```
 
-##Background information:
+## Background information:
+
+```sh
 gendiff -h
+```
 
-##Usage:
+## Usage:
+
+```sh
 gendiff [options] <filepath1> <filepath2>
 
 Compares two configuration files and shows a difference.
@@ -32,8 +42,9 @@ Options:
 -V, --version output the version number
 -h, --help output usage information
 -f, --format <type> output format
+```
 
-Demostration:
+## Demostration
 
 Comparison of "flat" json-files:
 [![asciicast](https://asciinema.org/a/NUx4lKLtSiwHjLYsH0azs8J9k.svg)](https://asciinema.org/a/NUx4lKLtSiwHjLYsH0azs8J9k)
