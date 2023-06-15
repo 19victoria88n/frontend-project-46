@@ -27,7 +27,7 @@ const makePlain = (data) => {
         return `Property '${currentPath.join('.')}' was updated. From ${getValue(node.value1)} to ${getValue(node.value2)}`;
 
       case 'unchanged':
-        return null;
+        return [];
 
       default:
         throw new Error(`Unknown operation: '${node.type}'`);
@@ -35,8 +35,7 @@ const makePlain = (data) => {
   };
 
   const result = data
-    .flatMap((item) => iter(item, []))
-    .filter((item) => item !== null);
+    .flatMap((item) => iter(item, []));
   return result.join('\n');
 };
 

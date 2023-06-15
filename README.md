@@ -22,9 +22,10 @@ Report generation in the form of plain text, stylish and json
 ## Installation:
 
 ```sh
-Clone repository.
-Install dependencies:
-make install
+Clone repository: git@github.com:19victoria88n/frontend-project-46.git.
+At the root of the repository install dependencies:
+make install.
+sudo npm lilk.
 ```
 
 ## Background information:

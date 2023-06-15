@@ -6,7 +6,7 @@
   "bin": {
     "gendiff": "bin/gendiff.js"
   },
-  "description": "[![Actions Status](https://github.com/19victoria88n/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/19victoria88n/frontend-project-46/actions)",
+  "description": "Difference calculator: compares two configuration files and shows a difference.",
   "scripts": {
     "test": "npx jest"
   },
