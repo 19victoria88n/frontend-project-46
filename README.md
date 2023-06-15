@@ -12,6 +12,13 @@
 
 This is a program that compares two configuration files and shows a difference.
 
+### System requirements:
+
+```sh
+Node.js > 16.0
+Unix OS or WSL
+```
+
 ## Utility features:
 
 ```sh
