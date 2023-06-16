@@ -9,7 +9,7 @@ const getFormat = (data, format) => {
     case 'yml':
       return yaml.load(data);
     default:
-      return null;
+      throw new Error(`Unknown format: ${format}`);
   }
 };
 
